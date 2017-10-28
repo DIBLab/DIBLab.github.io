@@ -4,6 +4,7 @@
 body{
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 #banner{
@@ -54,7 +55,7 @@ nav ul li a:hover{
 .threeCol{
     float: left;
     padding: 20px;
-    height: 100vh;
+    height: 100%;
 }
 
 #leftCol, #rightCol{
@@ -70,9 +71,7 @@ nav ul li a:hover{
     overflow: auto;
 }
 
-iframe{
-    width: 250px;
-    display: block;
-    margin: auto;
-    padding: 10px;
+iframe {
+  height: 500px;
+  width: 100%;
 }
