@@ -55,7 +55,6 @@ nav ul li a:hover{
 .threeCol{
     float: left;
     padding: 20px;
-    height: 100vh;
     height: 100%;
 }
 
@@ -72,7 +71,13 @@ nav ul li a:hover{
     overflow: auto;
 }
 
+<<<<<<< HEAD
 iframe{
     width: 100%;
     height: 500px;
+=======
+iframe {
+  height: 500px;
+  width: 100%;
+>>>>>>> c51057faf4b805d007d0a0c775095a811d241d2b
 }
