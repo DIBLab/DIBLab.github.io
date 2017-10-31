@@ -4,6 +4,7 @@
 body{
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 #banner{
@@ -55,6 +56,7 @@ nav ul li a:hover{
     float: left;
     padding: 20px;
     height: 100vh;
+    height: 100%;
 }
 
 #leftCol, #rightCol{
