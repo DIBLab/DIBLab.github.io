@@ -5,6 +5,7 @@ body{
     margin: 0;
     padding: 0;
     height: 100%;
+    background-color: #f7f7f7
 }
 
 #banner{
@@ -22,6 +23,7 @@ nav ul{
     margin: 0;
     position: fixed;
     top: 0;
+    z-index: 5;
     width: 100%;
     background-color: #414042;
 }
@@ -48,23 +50,32 @@ nav ul li a:hover{
 }
 
 #content{
-    margin-top: 155px;
+    position: absolute;
+    top: 155px;
+    left: 0;
     width: 100%;
+/*Setup grid*/
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
 }
 
 .threeCol{
-    float: left;
     padding: 20px;
-    height: 100%;
 }
 
-#leftCol, #rightCol{
-    width: 20%;
-    background-color: #f7f7f7;
+#leftCol{
+    grid-column: 1;
+}
+
+#rightCol{
+    grid-column: 5;
 }
 
 #mainCol{
-    width: 60%;
+    background-color: white;
+    grid-column: 2/5;
 }
 
 #calendar{
